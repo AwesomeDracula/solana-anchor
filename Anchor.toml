@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+minions = "KFXHaFpshiQatALBvdZNFaBeSnnD8bU7fP5tvxQFUL3"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
